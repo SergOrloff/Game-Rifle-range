@@ -7,7 +7,7 @@ SCREEN_WEIGHT = 600
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_WEIGHT))
 
 pygame.display.set_caption('Rifle-range game')
-icon = pygame.image.load('img/')
+icon = pygame.image.load('img/image')
 
 
 
