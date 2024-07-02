@@ -122,7 +122,8 @@ while running:
 # Финальный экран
 end_sound.play()  # Проиграть звук окончания игры
 screen.fill((0, 0, 0))  # Заполните экран черным цветом
-draw_text(f'Игра окончена! Число попаданий: {score}', font, (255, 255, 255), screen, SCREEN_WIDTH // 2 - 100, SCREEN_HEIGHT // 2 - 20)
+draw_text(f'Игра окончена! Попаданий: {score}', font, (255, 255, 255),
+          screen, SCREEN_WIDTH // 2 - 100, SCREEN_HEIGHT // 2 - 20)
 pygame.display.flip()
 
 # Подождите несколько секунд, показывая финальный экран
